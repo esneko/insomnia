@@ -1,0 +1,21 @@
+_id: req_2855f5c507184c11ae1a0f55c4caddb5
+type: Request
+parentId: wrk_49fc251232dc400ab458d3744b6031ee
+modified: 1675865842519
+created: 1675858176006
+url: http://localhost:5098/api/pets/types
+name: Pet types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1675858176006
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

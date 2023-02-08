@@ -1,0 +1,12 @@
+_id: ut_b2c11fb1b1134ca9b181e38952f765d6
+type: UnitTest
+parentId: uts_f1afbfe5c61243509ad39e0c0af89a82
+modified: 1675866070973
+created: 1675865829453
+requestId: req_2855f5c507184c11ae1a0f55c4caddb5
+name: Pet types
+code: |
+  const response1 = await insomnia.send();
+  const body = JSON.parse(response1.data);
+  expect(body).to.be.an('array');
+  expect(body.length).to.equal(9);
